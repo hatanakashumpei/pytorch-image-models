@@ -107,7 +107,9 @@ venv.bak/
 Untitled.ipynb
 Testing notebook.ipynb
 
+# hatanaka
 imagenet
 imagenet.zip
 imagenette2-320/
 topk_ids.csv
+notebooks/imagenetv2-matched-frequency-format-val/
