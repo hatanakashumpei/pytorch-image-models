@@ -106,3 +106,8 @@ venv.bak/
 *.gz
 Untitled.ipynb
 Testing notebook.ipynb
+
+imagenet
+imagenet.zip
+imagenette2-320/
+topk_ids.csv

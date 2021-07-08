@@ -116,7 +116,7 @@ def main():
 
     topk_ids = np.concatenate(topk_ids, axis=0)
 
-    with open(os.path.join(args.output_dir, './topk_ids.csv'), 'w') as out_file:
+    with open(os.path.join('./result', f'{args.output_dir}.csv'), 'w') as out_file:
         filenames = loader.dataset.filenames(basename=True)
         for filename, label in zip(filenames, topk_ids):
             out_file.write('{0},{1}\n'.format(
